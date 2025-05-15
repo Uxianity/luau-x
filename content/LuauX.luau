@@ -16,8 +16,8 @@ SOFTWARE.
 Credit is appreciated, not enforced.
 
 You're able to review the code freely as provided.
-If you're in the need to modify the code, you'll be responsible for all issues, bugs, that can, or cause destruction.
-If new to coding or new to applying modifications, keep the module as it is.
+Modifying the code makes you responsible for all issues, or bugs, that can, or cause incorrect behaviour or errors. 
+If new to coding, and, or new to applying modifications, keep the module as it is.
 
 ]]--
 
