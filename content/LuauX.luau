@@ -21,3 +21,36 @@ If new to coding, and, or new to applying modifications, keep the module as it i
 
 ]]--
 
+
+
+
+
+
+
+
+
+-- Initialize the module.
+local luauX = {}
+
+-- Primary Roblox Services
+local gamePlace = game
+local workingS = game:GetService("Workspace")
+local runS = game:GetService("RunService")
+
+-- Function to identify if running as server.
+local onServer = runS.IsServer
+
+
+-- Roblox Services for Server
+
+local inserteS = onServer() and game:GetService("InsertService") or nil
+local assetS = onServer() and game:GetService("AssetService")
+local teleportS = onServer() and game:GetService("TeleportService")
+
+
+
+
+-- Create temporary addon names which we will use later for fetching them.
+local players, servers, math, table, string, number, compiler, game, touches, context
+
+
